@@ -82,13 +82,21 @@
     </table>
 
     <br>
+
+    <?php 
+        echo "<pre style='color:White;'>";
+        echo "TESTE";
+        echo "</pre>";
+    
+    ?>
+
     <?php include 'dataselectdynamo.php'; ?>
 
     <br>
     <div class="push"></div>
   </div> <!-- DIV WRAPPER -->
   <div class="footer">
-    <textoverde>teste ci-cd B | Developer: Marcio Barcellos | Created on: 24/08/2019 | Last update: 03/04/2020 > 14/02/2022 > 03/10/2022</textoverde>
+    <textoverde>30122022 | Developer: Marcio Barcellos | Created on: 24/08/2019 | Last update: 03/04/2020 > 14/02/2022 > 03/10/2022</textoverde>
   </div>
 
   <!-- <script src="scripts/datainsert.js"></script> -->

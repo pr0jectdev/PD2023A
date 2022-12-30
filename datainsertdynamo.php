@@ -1,6 +1,6 @@
 <?php
 
-include '../send/security/dynamodb-loader.php';
+include 'security/dynamodb-loader.php';
 
 $checkcc = '';
 $about = strtoupper($_POST['out_about']);
