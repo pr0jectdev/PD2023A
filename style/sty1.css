@@ -347,26 +347,35 @@ a:active {
 }
 
 div.wrapper {
-	min-height: 100%;
+	/*min-height: 100%;*/
   	/* Equal to height of footer */
   	/* But also accounting for potential margin-bottom of last child */
-  	margin-bottom: -40px;
+  	/*margin-bottom: -40px;*/
+
+    height: 100vh;
 }
 
 div.push {
     height: 40px;
 }
 
-div.footer {
-	display: flex;
-    /* justify-content: center; */
-    align-items: center;
-    height: 40px;
-    padding-left: 5px;    
-	font-size: 12px;
-    background-color: #000000;
-    color: black;
-    opacity:0.8;
+/*---------------RODAPÉ---------------*/
+footer{
+  color: #00FF00;
+  text-align: center;
+  background-color: #000000;
+  opacity:0.8;
+
+  padding: 1rem;
+}
+
+footer p{
+  padding: 0.5rem;
+}
+
+footer .devName{
+  color: #00FF00;
+  text-decoration: underline;
 }
 
 /*

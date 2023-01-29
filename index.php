@@ -95,9 +95,22 @@
     <br>
     <div class="push"></div>
   </div> <!-- DIV WRAPPER -->
-  <div class="footer">
-    <textoverde>CI/CD 07012023:1356 | Developer: Marcio Barcellos | Created on: 24/08/2019 | Last update: 03/04/2020 > 14/02/2022 > 03/10/2022</textoverde>
-  </div>
+  
+  <!--RODAPÉ-->
+  <footer>
+    <p>
+      <a href="https://github.com/pr0jectdev/PD2023A/issues">Report bug</a>
+    </p>
+  
+    <p>CI/CD 07012023:1356</p>
+      
+    <p>Developers:  
+      <a href="https://github.com/wiz2k20" target="_blank" class="devName">Márcio Barcellos</a> and 
+      <a href="https://github.com/HelenaOliveira366" target="_blank" class="devName">Helena Oliveira</a>
+    </p>
+  
+    <p>Created on: 24/08/2019 | Last update: 29/01/2023</p>
+  </footer>
 
   <!-- <script src="scripts/datainsert.js"></script> -->
 
